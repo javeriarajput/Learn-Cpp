@@ -1,8 +1,9 @@
 #include<iostream>
 using namespace std;
 int main(){
-	int a=10;
-	int *num = &a;
-	*num =20;
-	cout<<a<<endl;
+	int num = 20;
+	int *numPtr = &num;
+	*numPtr=10;
+	cout<<num<<endl;
+//	cout<<*numPtr<<endl;
 }
